@@ -1,0 +1,28 @@
+{
+   "name": "asus",
+   "version": "1.0.0",
+   "main": "src/index.js",
+   "license": "MIT",
+   "dependencies": {
+      "axios": "^0.21.1",
+      "cheerio": "^1.0.0-rc.5",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "mssql": "^6.3.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.31"
+   },
+   "scripts": {
+      "dev": "nodemon src/index.ts",
+      "start": "ts-node src/index.ts"
+   },
+   "devDependencies": {
+      "@types/cors": "^2.8.10",
+      "@types/express": "^4.17.11",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.7",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
